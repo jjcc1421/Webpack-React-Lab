@@ -1,9 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
+import {test} from './test/test.jsx';
 
 class App extends React.Component {
   render () {
-    return <p> Hello React!</p>;
+    return <test></test>;
   }
 }
 
